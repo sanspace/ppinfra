@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Userdata START"
+sudo yum update
+sudo amazon-linux-extras install tomcat9 -y
+sudo yum install java-1.8.0 -y
+sudo yum install git -y
+sudo yum install mysql -y
+echo "Userdata DONE"
